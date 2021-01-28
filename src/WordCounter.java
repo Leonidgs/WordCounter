@@ -3,6 +3,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.toCollection;
+
 public class WordCounter {
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
@@ -22,14 +24,12 @@ public class WordCounter {
         }
 
         String s = pool.toString();
-        List<String> list = Stream.of(s.split("[^A-Za-zА-Яа-я]+"))
+        ArrayList<String> list = Stream.of(s.split("[^A-Za-zА-Яа-я]+"))
                 .map(String::toLowerCase)
                 .sorted()
-                .collect(Collectors.toList());
+                .collect(toCollection(ArrayList::new));
 
-        ArrayList list1 = new ArrayList();
-        list1.addAll(list);
-        return list1;
+        return list;
     }
     // Вычисляем частоту каждого слова и выводим в консоль.
     public LinkedHashMap frequentlyCounter(ArrayList<String> list) throws FileNotFoundException, UnsupportedEncodingException {
