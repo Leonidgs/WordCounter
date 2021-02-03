@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="517b8ed7-70d3-49a1-8bf2-b81a1bebd860" name="Default Changelist" comment="" />
+    <list default="true" id="517b8ed7-70d3-49a1-8bf2-b81a1bebd860" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeTask2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeTask2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTask2/META-INF/HomeTask2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTask2/WordCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTask2/WordCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/WordCounter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,22 +27,46 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1ne2eGNPLDBHfQAfGJmjE5EuUTm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HomeTask2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="service.WordCounter" />
+      <module name="HomeTask2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WordCounter" />
       <module name="HomeTask2" />
@@ -46,83 +83,31 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCounter" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WordCounter" />
       </list>
     </recent_temporary>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="177" key="#Project_Structure" timestamp="1611736340570">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1611736340570" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1611778044097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611778044097" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611752454306">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611752454306" />
-    <state width="1898" height="303" key="GridCell.Tab.0.bottom" timestamp="1611854856067">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611854856067" />
-    <state width="1898" height="303" key="GridCell.Tab.0.center" timestamp="1611854856066">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611854856066" />
-    <state width="1898" height="303" key="GridCell.Tab.0.left" timestamp="1611854856066">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611854856066" />
-    <state width="1898" height="303" key="GridCell.Tab.0.right" timestamp="1611854856066">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1898" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611854856066" />
-    <state width="1148" height="336" key="GridCell.Tab.1.bottom" timestamp="1611779932051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1148" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611779932051" />
-    <state width="1148" height="336" key="GridCell.Tab.1.center" timestamp="1611779932051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1148" height="336" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611779932051" />
-    <state width="1148" height="336" key="GridCell.Tab.1.left" timestamp="1611779932051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1148" height="336" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611779932051" />
-    <state width="1148" height="336" key="GridCell.Tab.1.right" timestamp="1611779932051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1148" height="336" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611779932051" />
-    <state x="824" y="175" key="SettingsEditor" timestamp="1611768006562">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="824" y="175" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611768006562" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1611841379519">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611841379519" />
-    <state x="1089" y="235" key="run.anything.popup" timestamp="1611753783760">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1089" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611753783760" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="517b8ed7-70d3-49a1-8bf2-b81a1bebd860" name="Default Changelist" comment="" />
+      <created>1612338796533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612338796533</updated>
+    </task>
+    <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WordCounter.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WordCounter.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

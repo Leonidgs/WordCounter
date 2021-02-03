@@ -1,24 +1,29 @@
+package service;
+
 import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toCollection;
 
 public class WordCounter {
 
-    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
-        new WordCounter().maxfrequency();
-    }
     // Читаем с файла и возвращаем ArrayList со считанными словами.
-    public ArrayList fileReader() throws FileNotFoundException, UnsupportedEncodingException {
+    public ArrayList fileReader()  {
         StringBuilder pool = new StringBuilder();
 
         String separator = File.separator;
         String way = "C:" + separator + "Users" + separator + "qwe" + separator + "Desktop" + separator + "myfile.txt";
 
-        Scanner scan = new Scanner(new InputStreamReader(
-                new FileInputStream(way), "windows-1251"));
+        Scanner scan = null;
+        try {
+            scan = new Scanner(new InputStreamReader(
+                    new FileInputStream(way), "windows-1251"));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         while (scan.hasNextLine()) {
             pool.append(scan.nextLine() + " ");
         }
@@ -32,7 +37,7 @@ public class WordCounter {
         return list;
     }
     // Вычисляем частоту каждого слова и выводим в консоль.
-    public LinkedHashMap frequentlyCounter(ArrayList<String> list) throws FileNotFoundException, UnsupportedEncodingException {
+    public LinkedHashMap frequentlyCounter(ArrayList<String> list) {
         list = new WordCounter().fileReader();
         System.out.println("Отсортированный по алф список " + list);
         int counter = 0;
@@ -53,7 +58,7 @@ public class WordCounter {
         return map;
     }
     //Вычисляем слова с максимальной частотой и выводим в консоль.
-    public void maxfrequency() throws FileNotFoundException, UnsupportedEncodingException {
+    public void maxfrequency() {
         HashMap<String, Integer> map = new HashMap();
         map = new WordCounter().frequentlyCounter(fileReader());
         int max = Collections.max(map.values());
